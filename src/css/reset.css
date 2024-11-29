@@ -1,3 +1,14 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+  background-color: #121212;
+}
+
+:root {
+  --accent-color: #bea69e;
+  --text-color: #ffffff;
+  --btn-color: #1d1d1d;
+}
 h1,
 h2,
 h3,
@@ -5,16 +16,13 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ul,
+ol {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -31,4 +39,17 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
 }

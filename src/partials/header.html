@@ -1,19 +1,42 @@
-<header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
+<div class="container">
+  <div class="bordered-section">
+    <nav class="header-navigation">
+      <a href="../index.html" class="link header-link">
+        <svg class="header-logo" width="127" height="20">
+          <use href="../img/symbol-defs.svg#icon-logo"></use>
         </svg>
       </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+
+      <ul class="header-list list">
+        <li class="header-item">
+          <a class="header-item-link" href="#about-us">about us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="header-item">
+          <a class="header-item-link" href="#our-courses">our courses</a>
+        </li>
+        <li class="header-item">
+          <a class="header-item-link" href="#our-mentors">our mentors</a>
+        </li>
+        <li class="header-item">
+          <a class="header-item-link" href="#reviews">reviews</a>
+        </li>
+        <li class="header-item">
+          <a class="header-item-link" href="#contacts">contacts</a>
         </li>
       </ul>
     </nav>
+    <div class="mobile-version-of-header-navigation">
+      <a href="./index.html" class="link header-mob-link">
+        <svg class="header-photo-icon" width="16" height="12">
+          <use href="../img/symbol-defs.svg#icon-camera"></use>
+        </svg>
+      </a>
+      <button class="modal-window-btn button" type="button">
+        <svg class="header-logo" width="32" height="22">
+          <use href="../img/symbol-defs.svg#icon-nav-button"></use>
+        </svg>
+      </button>
+    </div>
   </div>
-</header>
+  <button class="button header-btn" type="button">sign up</button>
+</div>
