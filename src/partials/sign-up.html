@@ -1,0 +1,78 @@
+<section class="sign-up">
+  <div class="container">
+    <div class="sign-up-wrap">
+      <h3 class="sign-up-title">Sign <span class="sign-up-accent">Up</span></h3>
+      <p class="sign-up-after-title">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="form" name="issue_report_form" autocomplete="off">
+        <label class="label">
+          <input
+            autofocus
+            class="form-input"
+            type="text"
+            name="username"
+            placeholder="Enter your name"
+        /></label>
+        <label class="label"
+          ><input
+            class="form-input"
+            type="text"
+            name="topic"
+            placeholder="Enter your email"
+        /></label>
+        <label class="label">
+          <textarea
+            class="form-input form-input-message"
+            name="description"
+            placeholder="Message"
+            rows="5"
+          ></textarea>
+        </label>
+        <button class="sign-up-btn btn" type="submit">send</button>
+      </form>
+      <p class="sign-up-privacy">
+        By clicking on “Send” button, you agree to our
+        <a href="" class="sign-up-privacy-link">Privacy Policy</a>, and allow
+        Promodo to use this information for marketing purposes.
+      </p>
+    </div>
+    <div class="sign-up-img">
+      <div class="img-container">
+        <picture class="camera-picture">
+          <!-- desctop -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/sign-up/small-camera@1x.png 1x,
+              ../img/sign-up/small-camera@2x.png 2x
+            " />
+          <img
+            class="sign-up-small-img"
+            src="../img/sign-up/small-camera@1x.png"
+            alt="small camera"
+            width="150"
+            height="142"
+        /></picture>
+      </div>
+      <div class="big-img-container">
+        <picture class="camera-picture">
+          <!-- desctop -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/sign-up/big-camera@1x.png 1x,
+              ../img/sign-up/big-camera@2x.png 2x
+            " />
+          <img
+            class="sign-up-big-img"
+            src="../img/sign-up/big-camera@1x.png"
+            alt="big camera"
+            width="240"
+            height="296"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
